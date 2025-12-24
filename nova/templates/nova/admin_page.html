@@ -1,0 +1,16 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block content %}
+<h1>{{ page.title }}</h1>
+
+<div id="nova-root" data-page-id="{{ page.id }}">
+  <!-- React will mount here -->
+  <p>Loading editor...</p>
+</div>
+
+<!-- These will later be replaced with built React files -->
+<script src="{% static 'nova/js/main.js' %}"></script>
+<link rel="stylesheet" href="{% static 'nova/css/main.css' %}">
+{% endblock %}
+

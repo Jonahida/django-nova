@@ -1,0 +1,6 @@
+asgiref==3.8.1
+backports.zoneinfo==0.2.1
+django==4.2.25
+-e git+https://github.com/Jonahida/django-nova.git@6179681322c558fbd7f85aa2fb048bec0cf149a0#egg=django_nova
+sqlparse==0.5.3
+typing-extensions==4.13.2

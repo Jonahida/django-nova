@@ -1,0 +1,4 @@
+include README.md
+recursive-include nova/templates *
+recursive-include nova/static *
+
